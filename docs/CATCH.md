@@ -26,8 +26,8 @@ After a few high-severity hits from a public IP, ATDE can also apply a **local O
 ## 1. Deploy (one command)
 
 ```bash
-git clone https://github.com/theworker02/blind-botnet.git
-cd blind-botnet
+git clone https://github.com/theworker02/ATDE.git
+cd ATDE
 cp .env.example .env
 # strongly recommended:
 # echo 'ATDE_OPS_TOKEN=long-random-secret' >> .env
