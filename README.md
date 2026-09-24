@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/theworker02/blind-botnet/actions/workflows/ci.yml"><img src="https://github.com/theworker02/blind-botnet/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
+  <a href="https://github.com/theworker02/ATDE/actions/workflows/ci.yml"><img src="https://github.com/theworker02/ATDE/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
   <a href="https://pkg.go.dev/github.com/theworker02/blind-botnet/v2"><img src="https://pkg.go.dev/badge/github.com/theworker02/blind-botnet/v2.svg" alt="Go Reference" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-blue.svg" alt="License" /></a>
   <a href="VERSION"><img src="https://img.shields.io/badge/version-2.0.1-2EC4B6.svg" alt="Version" /></a>
@@ -210,8 +210,8 @@ bash scripts/quickstart.sh
 ### Option B — Docker Compose (recommended)
 
 ```bash
-git clone https://github.com/theworker02/blind-botnet.git
-cd blind-botnet
+git clone https://github.com/theworker02/ATDE.git
+cd ATDE
 cp .env.example .env
 
 docker compose -f deployments/docker-compose.yml up -d --build
