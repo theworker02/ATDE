@@ -1,0 +1,12 @@
+ATDE
+Copyright 2026 theworker02
+
+This product includes software developed for defensive cybersecurity operations
+(Autonomous Threat Disruption Engine). See LICENSE (Apache-2.0) for terms.
+
+Product / common-law mark: ATDE
+See docs/IP.md for the intellectual-property schedule and docs/BRANDING.md for brand assets.
+
+Third-party dependencies are listed in go.mod / go.sum and retain their own licenses.
+Summarized attribution: THIRD_PARTY_NOTICES.md
+Regenerate dependency snapshot: make sbom

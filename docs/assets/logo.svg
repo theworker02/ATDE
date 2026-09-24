@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="ATDE logo">
+  <title>ATDE</title>
+  <rect width="128" height="128" rx="28" fill="#0F1419"/>
+  <!-- Shield -->
+  <path d="M64 18 L102 34 V62 C102 86 86 104 64 112 C42 104 26 86 26 62 V34 Z"
+        fill="none" stroke="#2EC4B6" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Sensor eye -->
+  <circle cx="64" cy="58" r="18" fill="none" stroke="#E8EEF2" stroke-width="4"/>
+  <circle cx="64" cy="58" r="7" fill="#2EC4B6"/>
+  <!-- Containment chevron -->
+  <path d="M48 82 L64 94 L80 82" fill="none" stroke="#2EC4B6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

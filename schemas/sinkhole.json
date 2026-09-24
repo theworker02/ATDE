@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://atde.local/schemas/sinkhole.json",
+  "title": "threat.v1.action.sinkhole",
+  "type": "object",
+  "required": ["id", "timestamp", "c2_domains", "protocol"],
+  "properties": {
+    "id": { "type": "string" },
+    "parent_id": { "type": "string" },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "botnet_name": { "type": "string" },
+    "c2_domains": { "type": "array", "items": { "type": "string" } },
+    "c2_ips": { "type": "array", "items": { "type": "string" } },
+    "protocol": { "type": "string" },
+    "sinkhole_ip": { "type": "string" },
+    "dry_run": { "type": "boolean" }
+  }
+}

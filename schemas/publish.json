@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://atde.local/schemas/publish.json",
+  "title": "threat.v1.action.publish",
+  "type": "object",
+  "required": ["id", "timestamp", "threat_type", "summary"],
+  "properties": {
+    "id": { "type": "string" },
+    "parent_id": { "type": "string" },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "threat_type": { "type": "string" },
+    "target_domain": { "type": "string" },
+    "attacker_ip": { "type": "string" },
+    "abuseipdb_categories": { "type": "array", "items": { "type": "integer" } },
+    "iocs": { "type": "array", "items": { "type": "string" } },
+    "summary": { "type": "string" },
+    "channels": { "type": "array", "items": { "type": "string" } },
+    "dry_run": { "type": "boolean" }
+  }
+}

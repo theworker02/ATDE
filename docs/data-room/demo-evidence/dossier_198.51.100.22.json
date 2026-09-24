@@ -1,0 +1,19 @@
+{
+  "ip": "198.51.100.22",
+  "first_seen": "2026-09-24T14:05:44Z",
+  "last_seen": "2026-09-24T14:06:12Z",
+  "hit_count": 2,
+  "blocked": true,
+  "private_ip": false,
+  "max_severity": 7,
+  "tools": ["hydra-like"],
+  "tags": ["bruteforce", "ssh"],
+  "sources": ["honeypot"],
+  "services": ["ssh"],
+  "paths": [],
+  "reasons": ["ssh_password_burn"],
+  "actions": ["record", "fingerprint", "local_block"],
+  "user_agents": [],
+  "last_summary": "Repeat SSH burn — local ban queued",
+  "last_record_id": "demo-evt-005"
+}

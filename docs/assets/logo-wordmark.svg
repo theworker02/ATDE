@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180" role="img" aria-label="ATDE wordmark">
+  <title>ATDE  Autonomous Threat Disruption Engine</title>
+  <rect width="720" height="180" fill="#0F1419"/>
+  <!-- Mark -->
+  <g transform="translate(36,26)">
+    <path d="M64 8 L98 22 V46 C98 68 84 84 64 92 C44 84 30 68 30 46 V22 Z"
+          fill="none" stroke="#2EC4B6" stroke-width="5" stroke-linejoin="round"/>
+    <circle cx="64" cy="46" r="16" fill="none" stroke="#E8EEF2" stroke-width="4"/>
+    <circle cx="64" cy="46" r="6" fill="#2EC4B6"/>
+    <path d="M50 68 L64 78 L78 68" fill="none" stroke="#2EC4B6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="180" y="88" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="64" font-weight="700" fill="#E8EEF2" letter-spacing="4">ATDE</text>
+  <text x="184" y="128" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="500" fill="#2EC4B6" letter-spacing="1.5">AUTONOMOUS THREAT DISRUPTION ENGINE</text>
+</svg>

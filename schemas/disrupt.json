@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://atde.local/schemas/disrupt.json",
+  "title": "threat.v1.action.disrupt",
+  "type": "object",
+  "required": ["id", "timestamp", "reason", "action"],
+  "properties": {
+    "id": { "type": "string" },
+    "parent_id": { "type": "string" },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "source_ip": { "type": "string" },
+    "reason": { "type": "string" },
+    "action": { "type": "string", "enum": ["block", "tarpit", "poison"] },
+    "target": { "type": "string" },
+    "channels": { "type": "array", "items": { "type": "string" } },
+    "meta": { "type": "object" },
+    "dry_run": { "type": "boolean" },
+    "simulated": { "type": "boolean" }
+  }
+}

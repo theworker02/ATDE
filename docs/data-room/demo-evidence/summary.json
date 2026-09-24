@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-09-24T14:10:00Z",
+  "product": "ATDE",
+  "version": "1.3.0",
+  "note": "Sanitized diligence snapshot — synthetic IPs only",
+  "totals": {
+    "events": 8,
+    "unique_ips": 3,
+    "blocked_ips": 2,
+    "max_severity": 85,
+    "services": ["http", "ssh", "redis", "telnet", "mysql-bait", "ftp-bait"]
+  },
+  "top_ips": [
+    {"ip": "203.0.113.50", "hits": 4, "max_severity": 85, "blocked": true},
+    {"ip": "198.51.100.22", "hits": 3, "max_severity": 7, "blocked": true},
+    {"ip": "203.0.113.77", "hits": 1, "max_severity": 5, "blocked": false}
+  ],
+  "capabilities_demonstrated": [
+    "multi-surface bait correlation (7 surfaces in 1.3)",
+    "tool fingerprinting",
+    "severity scoring",
+    "local-first block actions",
+    "per-IP dossier rollup",
+    "STIX 2.1 + abuse Markdown export"
+  ]
+}

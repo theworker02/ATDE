@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" role="img" aria-label="ATDE social banner">
+  <title>ATDE social preview</title>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 H0 V40" fill="none" stroke="#1A222C" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="640" fill="#0F1419"/>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+  <g transform="translate(120,170) scale(2.2)">
+    <path d="M64 8 L98 22 V46 C98 68 84 84 64 92 C44 84 30 68 30 46 V22 Z"
+          fill="none" stroke="#2EC4B6" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="64" cy="46" r="16" fill="none" stroke="#E8EEF2" stroke-width="3.5"/>
+    <circle cx="64" cy="46" r="6" fill="#2EC4B6"/>
+    <path d="M50 68 L64 78 L78 68" fill="none" stroke="#2EC4B6" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="420" y="290" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="96" font-weight="700" fill="#E8EEF2" letter-spacing="6">ATDE</text>
+  <text x="424" y="360" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="500" fill="#2EC4B6" letter-spacing="2">DEFENSIVE CATCH · LOCAL-FIRST CONTAINMENT</text>
+  <text x="424" y="420" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" fill="#8B9AAB">Honeypot · Deception · ipset/netsh · Owned-edge WAF</text>
+</svg>

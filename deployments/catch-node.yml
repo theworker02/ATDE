@@ -1,0 +1,38 @@
+# Standalone catch-node: public bait → policy disruption → disk ledger
+#
+#   docker compose -f deployments/catch-node.yml up -d --build
+#
+# ATDE 2.0 public bait ports:
+#   8080 HTTP · 2222 SSH · 6379 Redis · 2323 Telnet · 3306 MySQL · 2121 FTP
+#   2525 SMTP · 9200 Elasticsearch · 27017 MongoDB · 8443 deception
+# Keep 9091 (console / fleet / SIEM API) locked to your admin IP.
+
+services:
+  atde:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    command: ["/app/atde", "-config", "/app/configs/config.yaml", "-mode", "catch-node"]
+    env_file:
+      - ../.env
+    environment:
+      ATDE_LIVE: "1"
+      ATDE_NATS_OPTIONAL: "1"
+    volumes:
+      - ../configs:/app/configs:ro
+      - ../data:/app/data
+    ports:
+      - "8080:8080"
+      - "2222:2222"
+      - "6379:6379"
+      - "2323:2323"
+      - "3306:3306"
+      - "2121:2121"
+      - "2525:2525"
+      - "9200:9200"
+      - "27017:27017"
+      - "8443:8443"
+      - "9091:9091"
+    cap_add:
+      - NET_ADMIN
+    restart: unless-stopped

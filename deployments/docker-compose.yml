@@ -1,0 +1,41 @@
+services:
+  nats:
+    image: nats:2.10-alpine
+    command: ["-js", "-m", "8222"]
+    ports:
+      - "4222:4222"
+      - "8222:8222"
+    volumes:
+      - nats-data:/data
+    restart: unless-stopped
+
+  # Internet-facing catcher: honeypot + tarpit + deception + local/edge blocks
+  atde:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    depends_on: [nats]
+    environment:
+      NATS_URL: nats://nats:4222
+      ATDE_LIVE: "1"
+      # Optional owned-cloud escalation (never required for local containment):
+      # CLOUDFLARE_API_TOKEN: ""
+      # CLOUDFLARE_ZONE_ID: ""
+      # AWS_WAF_IPSET_ID: ""
+      # AWS_WAF_IPSET_NAME: ""
+      # ABUSEIPDB_API_KEY: ""
+    volumes:
+      - ../configs:/app/configs:ro
+      - ../data:/app/data
+    ports:
+      - "8080:8080"   # HTTP honeypot
+      - "2222:2222"   # SSH tarpit
+      - "8443:8443"   # deception proxy
+      - "9080:9080"   # sinkhole listener
+      - "9091:9091"   # ops health/metrics
+    cap_add:
+      - NET_ADMIN     # local firewall (ipset/iptables) inside container
+    restart: unless-stopped
+
+volumes:
+  nats-data:

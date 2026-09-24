@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://atde.local/schemas/artifact-extracted.json",
+  "title": "threat.v1.artifact.extracted",
+  "type": "object",
+  "required": ["id", "parent_id", "timestamp", "threat_type", "target_domain", "extracted_iocs", "confidence_score"],
+  "properties": {
+    "id": { "type": "string" },
+    "parent_id": { "type": "string" },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "threat_type": { "type": "string" },
+    "target_brand": { "type": "string" },
+    "target_domain": { "type": "string" },
+    "confidence_score": { "type": "number", "minimum": 0, "maximum": 1 },
+    "extracted_iocs": { "type": "object" },
+    "snippets": { "type": "array", "items": { "type": "string" } }
+  }
+}

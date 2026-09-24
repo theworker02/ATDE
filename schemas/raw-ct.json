@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://atde.local/schemas/raw-ct.json",
+  "title": "threat.v1.raw.ct",
+  "type": "object",
+  "required": ["id", "timestamp", "source", "data"],
+  "properties": {
+    "id": { "type": "string" },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "source": { "type": "string" },
+    "matched_rule": { "type": "string" },
+    "data": {
+      "type": "object",
+      "required": ["domain", "all_domains", "seen_at"],
+      "properties": {
+        "fingerprint": { "type": "string" },
+        "domain": { "type": "string" },
+        "all_domains": { "type": "array", "items": { "type": "string" } },
+        "issuer": { "type": "string" },
+        "seen_at": { "type": "integer" }
+      }
+    }
+  }
+}

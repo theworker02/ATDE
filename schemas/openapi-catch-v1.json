@@ -1,0 +1,71 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "ATDE Catch API",
+    "version": "1.3.0",
+    "description": "Read-only catch ledger API for the Autonomous Threat Disruption Engine operator console. Served live at GET /v1/openapi.json."
+  },
+  "paths": {
+    "/v1/summary": {
+      "get": {
+        "summary": "Catch dashboard stats",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/v1/caught": {
+      "get": {
+        "summary": "List recent records",
+        "parameters": [
+          { "name": "ip", "in": "query", "schema": { "type": "string" } },
+          { "name": "limit", "in": "query", "schema": { "type": "integer" } }
+        ],
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/v1/dossiers": {
+      "get": {
+        "summary": "List dossiers",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/v1/dossier/{ip}": {
+      "get": {
+        "summary": "Get one dossier",
+        "parameters": [
+          { "name": "ip", "in": "path", "required": true, "schema": { "type": "string" } }
+        ],
+        "responses": { "200": { "description": "OK" }, "404": { "description": "Not found" } }
+      }
+    },
+    "/v1/export/{ip}": {
+      "get": {
+        "summary": "Abuse Markdown package",
+        "responses": { "200": { "description": "text/markdown" } }
+      }
+    },
+    "/v1/stix/{ip}": {
+      "get": {
+        "summary": "STIX 2.1 bundle",
+        "responses": { "200": { "description": "application/stix+json" } }
+      }
+    },
+    "/v1/capabilities": {
+      "get": {
+        "summary": "Product capability map",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/v1/openapi.json": {
+      "get": {
+        "summary": "This document",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/v1/status": {
+      "get": {
+        "summary": "Process status + counters",
+        "responses": { "200": { "description": "OK" } }
+      }
+    }
+  }
+}

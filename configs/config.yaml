@@ -1,0 +1,105 @@
+app:
+  name: atde
+  env: production
+  log_level: info
+  live: true
+  dry_run: false
+  ops_addr: ":9091"
+
+nats:
+  url: ${NATS_URL}
+
+ingest:
+  ct:
+    enabled: true
+    ws_url: wss://certstream.calidog.io/
+    workers: 10
+    queue_size: 5000
+  honeypot:
+    enabled: true
+    http_addr: ":8080"
+    ssh_addr: ":2222"
+    redis_addr: ":6379"
+    telnet_addr: ":2323"
+    mysql_addr: ":3306"
+    ftp_addr: ":2121"
+    smtp_addr: ":2525"
+    es_addr: ":9200"
+    mongo_addr: ":27017"
+    block_after: 3
+
+extract:
+  work_dir: ./data/sandbox
+  timeout: 2m
+
+trace:
+  eth_rpc: https://eth.llamarpc.com
+  max_hops: 3
+
+disrupt:
+  evidence_dir: ./data/evidence
+  min_confidence: 0.7
+  channels: {}
+
+active_defense:
+  enabled: true
+  dry_run: false
+  min_confidence: 0.7
+  tarpit:
+    enabled: true
+    byte_interval: 5s
+    max_duration: 30m
+    max_conns: 256
+  poison:
+    enabled: true
+    batch_size: 100
+  edge:
+    enabled: true
+    dry_run: false
+    local_firewall: true
+
+sinkhole:
+  enabled: true
+  dry_run: false
+  sinkhole_ip: "127.0.0.1"
+  listen_addr: ":9080"
+  evidence_dir: ./data/evidence
+
+publish:
+  enabled: true
+  dry_run: false
+  evidence_dir: ./data/evidence
+
+harden:
+  enabled: false
+  hard_mode: false
+  anti_debug: true
+  timing_check: false
+  timing_threshold: 500ms
+  integrity_check: false
+  disable_dumpable: true
+  seccomp: true
+  watch_interval: 2s
+
+deception:
+  enabled: true
+  listen_addr: ":8443"
+  decoy_threshold: 25
+  max_delay: 15s
+  dry_run: false
+  auto_block_score: 50
+
+brands:
+  - chase
+  - paypal
+  - binance
+  - coinbase
+  - metamask
+  - wellsfargo
+  - appleid
+  - bankofamerica
+  - phantom
+  - trustwallet
+  - microsoft
+  - google
+  - amazon

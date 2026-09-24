@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://atde.local/schemas/takedown.json",
+  "title": "threat.v1.action.takedown",
+  "type": "object",
+  "required": ["id", "artifact_id", "timestamp", "target", "evidence_summary", "dispatch_targets"],
+  "properties": {
+    "id": { "type": "string" },
+    "artifact_id": { "type": "string" },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "target": {
+      "type": "object",
+      "properties": {
+        "domain": { "type": "string" },
+        "ip": { "type": "string" },
+        "asn": { "type": "string" },
+        "registrar": { "type": "string" },
+        "hosting_provider": { "type": "string" }
+      }
+    },
+    "evidence_summary": { "type": "object" },
+    "dispatch_targets": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "dry_run": { "type": "boolean" }
+  }
+}

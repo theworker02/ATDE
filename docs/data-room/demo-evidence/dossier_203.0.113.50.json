@@ -1,0 +1,19 @@
+{
+  "ip": "203.0.113.50",
+  "first_seen": "2026-09-24T14:02:11Z",
+  "last_seen": "2026-09-24T14:03:01Z",
+  "hit_count": 3,
+  "blocked": true,
+  "private_ip": false,
+  "max_severity": 8,
+  "tools": ["zgrab", "scripted", "redis_scanner"],
+  "tags": ["scanner", "credential_stuff", "secrets_hunt", "exploit", "redis"],
+  "sources": ["honeypot"],
+  "services": ["http", "redis"],
+  "paths": ["/admin/login", "/.env"],
+  "reasons": ["atlas_impossible_auth", "sensitive_path_probe", "redis_cmd"],
+  "actions": ["record", "fingerprint", "local_block"],
+  "user_agents": ["Mozilla/5.0 zgrab/0.x", "python-requests/2.31.0"],
+  "last_summary": "Redis CONFIG probe — local ban queued",
+  "last_record_id": "demo-evt-003"
+}
