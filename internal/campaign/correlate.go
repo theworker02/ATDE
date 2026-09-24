@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/theworker02/blind-botnet/internal/catch"
+	"github.com/theworker02/blind-botnet/v2/internal/catch"
 )
 
 // Campaign groups related attacker IPs by shared tradecraft.

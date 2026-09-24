@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/theworker02/blind-botnet/internal/config"
+	"github.com/theworker02/blind-botnet/v2/internal/config"
 )
 
 // Engine holds inbound scanner connections open with ultra-slow responses.

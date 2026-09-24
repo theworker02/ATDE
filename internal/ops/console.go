@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/theworker02/blind-botnet/internal/campaign"
-	"github.com/theworker02/blind-botnet/internal/catch"
-	"github.com/theworker02/blind-botnet/internal/fleet"
-	"github.com/theworker02/blind-botnet/internal/policy"
-	"github.com/theworker02/blind-botnet/internal/siem"
+	"github.com/theworker02/blind-botnet/v2/internal/campaign"
+	"github.com/theworker02/blind-botnet/v2/internal/catch"
+	"github.com/theworker02/blind-botnet/v2/internal/fleet"
+	"github.com/theworker02/blind-botnet/v2/internal/policy"
+	"github.com/theworker02/blind-botnet/v2/internal/siem"
 )
 
 // CatchAPI mounts read-only catch ledger endpoints on the ops mux.

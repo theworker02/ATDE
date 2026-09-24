@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/theworker02/blind-botnet/internal/catch"
+	"github.com/theworker02/blind-botnet/v2/internal/catch"
 )
 
 func TestExports(t *testing.T) {

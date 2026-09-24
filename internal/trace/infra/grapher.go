@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/theworker02/blind-botnet/internal/config"
+	"github.com/theworker02/blind-botnet/v2/internal/config"
 )
 
 // Grapher maps domains/IPs to ASN and hosting metadata.

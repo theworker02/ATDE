@@ -12,8 +12,9 @@
 
 <p align="center">
   <a href="https://github.com/theworker02/blind-botnet/actions/workflows/ci.yml"><img src="https://github.com/theworker02/blind-botnet/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
+  <a href="https://pkg.go.dev/github.com/theworker02/blind-botnet/v2"><img src="https://pkg.go.dev/badge/github.com/theworker02/blind-botnet/v2.svg" alt="Go Reference" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-blue.svg" alt="License" /></a>
-  <a href="VERSION"><img src="https://img.shields.io/badge/version-2.0.0-2EC4B6.svg" alt="Version" /></a>
+  <a href="VERSION"><img src="https://img.shields.io/badge/version-2.0.1-2EC4B6.svg" alt="Version" /></a>
   <a href="go.mod"><img src="https://img.shields.io/badge/go-1.24+-00ADD8.svg?logo=go&logoColor=white" alt="Go" /></a>
   <a href="deployments/docker-compose.yml"><img src="https://img.shields.io/badge/docker-compose-2496ED.svg?logo=docker&logoColor=white" alt="Docker" /></a>
   <a href="SECURITY.md"><img src="https://img.shields.io/badge/security-policy-red.svg" alt="Security" /></a>
@@ -41,6 +42,16 @@
 
 > **Product name:** ATDE &nbsp;|&nbsp; **Historical repo dirname:** `blind-botnet` (do not lead marketing with this name)  
 > Brand assets: [`docs/BRANDING.md`](docs/BRANDING.md) · Wordmark: [`docs/assets/logo-wordmark.svg`](docs/assets/logo-wordmark.svg)
+
+## Go module (pkg.go.dev)
+
+Published on the Go module proxy / **[pkg.go.dev](https://pkg.go.dev/github.com/theworker02/blind-botnet/v2)**:
+
+```bash
+go get github.com/theworker02/blind-botnet/v2@latest
+```
+
+Module path: `github.com/theworker02/blind-botnet/v2` (semver major ≥ 2).
 
 ## What this is for
 
@@ -102,7 +113,7 @@ Backed by **NATS JetStream** (`THREAT_PIPELINE`) with typed subjects under `thre
 | Env template | `.env.example` | Secrets checklist |
 | Event schemas | `schemas/*.json` | JSON Schema drafts for the bus |
 | Makefile | `Makefile` | `build`, `test`, `up`, `caught`, `release` |
-| Version stamp | `VERSION` | Semver `2.0.0` (`atde -version`) |
+| Version stamp | `VERSION` | Semver `2.0.1` (`atde -version`) |
 
 ### Core Go packages
 

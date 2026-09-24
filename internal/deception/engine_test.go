@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/theworker02/blind-botnet/internal/config"
-	"github.com/theworker02/blind-botnet/internal/deception"
+	"github.com/theworker02/blind-botnet/v2/internal/config"
+	"github.com/theworker02/blind-botnet/v2/internal/deception"
 )
 
 func TestRCEDecoySynthetic(t *testing.T) {

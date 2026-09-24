@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/theworker02/blind-botnet/internal/config"
-	"github.com/theworker02/blind-botnet/internal/models"
-	"github.com/theworker02/blind-botnet/internal/publish"
+	"github.com/theworker02/blind-botnet/v2/internal/config"
+	"github.com/theworker02/blind-botnet/v2/internal/models"
+	"github.com/theworker02/blind-botnet/v2/internal/publish"
 )
 
 func TestSTIXAndMarkdownEvidence(t *testing.T) {

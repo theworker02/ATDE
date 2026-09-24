@@ -12,6 +12,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Postgres fleet ledger
 - Terraform / signed release attestations
 
+## [2.0.1] — 2026-09-24
+
+### Changed
+
+- Go module path set to `github.com/theworker02/blind-botnet/v2` (required for semver major ≥ 2)
+- README links to [pkg.go.dev](https://pkg.go.dev/github.com/theworker02/blind-botnet/v2)
+
 ## [2.0.0] — 2026-09-24
 
 ### Added
