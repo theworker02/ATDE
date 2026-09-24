@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/theworker02/blind-botnet/v2/internal/catch"
-	"github.com/theworker02/blind-botnet/v2/internal/disrupt/edge"
+	"github.com/theworker02/ATDE/v2/internal/catch"
+	"github.com/theworker02/ATDE/v2/internal/disrupt/edge"
 )
 
 // Tier is a graduated defensive response on infrastructure you own.

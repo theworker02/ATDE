@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/theworker02/blind-botnet/v2/internal/config"
+	"github.com/theworker02/ATDE/v2/internal/config"
 )
 
 // Check is one preflight result.

@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/theworker02/blind-botnet/v2/internal/models"
+	"github.com/theworker02/ATDE/v2/internal/models"
 )
 
 // Generator builds realistic synthetic credentials for evidence / simulation.

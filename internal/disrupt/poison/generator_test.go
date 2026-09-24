@@ -7,8 +7,8 @@ import (
 
 	"log/slog"
 
-	"github.com/theworker02/blind-botnet/v2/internal/disrupt/poison"
-	"github.com/theworker02/blind-botnet/v2/internal/models"
+	"github.com/theworker02/ATDE/v2/internal/disrupt/poison"
+	"github.com/theworker02/ATDE/v2/internal/models"
 )
 
 func TestSimulateBatchDoesNotRequireNetwork(t *testing.T) {

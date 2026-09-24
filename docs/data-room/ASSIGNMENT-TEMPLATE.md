@@ -16,7 +16,7 @@ GitHub: `@theworker02` (or successor copyright holder listed in `AUTHORS`)
 
 Seller hereby irrevocably assigns, transfers, and conveys to Buyer all right, title, and interest in and to the copyrights in the following works (the “Works”), including all renewals and extensions:
 
-1. The software and documentation constituting **ATDE** as embodied in the Git repository historically known as `blind-botnet` / module `github.com/theworker02/blind-botnet/v2`, including without limitation source code under `cmd/` and `internal/`, schemas, operator documentation, ADRs, brand assets under `docs/assets/`, and related materials listed on **Schedule A** (IP Schedule / `docs/IP.md`).  
+1. The software and documentation constituting **ATDE** as embodied in the Git repository `theworker02/ATDE` (historically known as `blind-botnet`) / module `github.com/theworker02/ATDE/v2`, including without limitation source code under `cmd/` and `internal/`, schemas, operator documentation, ADRs, brand assets under `docs/assets/`, and related materials listed on **Schedule A** (IP Schedule / `docs/IP.md`).  
 2. All goodwill associated with the unregistered mark **ATDE** as used in connection with the Works (trademark assignment may be executed on a separate instrument with goodwill).
 
 **Excluded (unless listed on Schedule B):** cloud accounts, API keys, production catch data, third-party OSS (which remains under its own licenses), and trademarks registered solely in Seller’s personal name if any.

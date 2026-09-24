@@ -3,7 +3,7 @@ package rules_test
 import (
 	"testing"
 
-	"github.com/theworker02/blind-botnet/v2/internal/ingest/rules"
+	"github.com/theworker02/ATDE/v2/internal/ingest/rules"
 )
 
 func TestInspectDomain(t *testing.T) {

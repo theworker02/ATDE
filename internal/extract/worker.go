@@ -14,11 +14,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/theworker02/blind-botnet/v2/internal/catch"
-	"github.com/theworker02/blind-botnet/v2/internal/extract/indicators"
-	"github.com/theworker02/blind-botnet/v2/internal/ingest/rules"
-	"github.com/theworker02/blind-botnet/v2/internal/models"
-	"github.com/theworker02/blind-botnet/v2/internal/natsbus"
+	"github.com/theworker02/ATDE/v2/internal/catch"
+	"github.com/theworker02/ATDE/v2/internal/extract/indicators"
+	"github.com/theworker02/ATDE/v2/internal/ingest/rules"
+	"github.com/theworker02/ATDE/v2/internal/models"
+	"github.com/theworker02/ATDE/v2/internal/natsbus"
 )
 
 // Worker consumes raw CT/honeypot events and publishes artifact.extracted.

@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/theworker02/blind-botnet/v2/internal/catch"
-	"github.com/theworker02/blind-botnet/v2/internal/models"
-	"github.com/theworker02/blind-botnet/v2/internal/natsbus"
-	"github.com/theworker02/blind-botnet/v2/internal/trace/infra"
+	"github.com/theworker02/ATDE/v2/internal/catch"
+	"github.com/theworker02/ATDE/v2/internal/models"
+	"github.com/theworker02/ATDE/v2/internal/natsbus"
+	"github.com/theworker02/ATDE/v2/internal/trace/infra"
 )
 
 // Worker consumes artifact.extracted and publishes action.takedown packages.

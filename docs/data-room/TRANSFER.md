@@ -16,7 +16,7 @@ Entity type / jurisdiction: ________________________________
 
 For good and valuable consideration (the amount and payment terms of which may be set out in a separate purchase agreement), Seller hereby **irrevocably assigns, transfers, and conveys** to Buyer **all right, title, and interest** in and to:
 
-1. **Copyright** in the software, documentation, schemas, scripts, CI/packaging, and brand artwork constituting **ATDE (Autonomous Threat Disruption Engine)** as embodied in the Git repository historically named `blind-botnet` / Go module `github.com/theworker02/blind-botnet/v2` (the “Work”), including all renewals and extensions, and as **itemized in Schedule A** ([`SCHEDULE-A.md`](SCHEDULE-A.md)); and  
+1. **Copyright** in the software, documentation, schemas, scripts, CI/packaging, and brand artwork constituting **ATDE (Autonomous Threat Disruption Engine)** as embodied in the Git repository `theworker02/ATDE` (historically named `blind-botnet`) / Go module `github.com/theworker02/ATDE/v2` (the “Work”), including all renewals and extensions, and as **itemized in Schedule A** ([`SCHEDULE-A.md`](SCHEDULE-A.md)); and  
 2. All **goodwill** in the unregistered product name / mark **ATDE** as used by Seller in connection with the Work.
 
 Seller retains no copyright interest in the Work except as a recipient of any Apache-2.0 license that already applies to publicly distributed copies (same as any other licensee).
@@ -26,7 +26,7 @@ Seller retains no copyright interest in the Work except as a recipient of any Ap
 On or promptly after the Effective Date, Seller shall:
 
 1. Sign this instrument;  
-2. Transfer GitHub ownership of `theworker02/blind-botnet` (or successor URL) to Buyer;  
+2. Transfer GitHub ownership of `theworker02/ATDE` to Buyer;  
 3. Upon request, execute any short confirmatory assignment Buyer needs for recordation.
 
 ## 3. Exclusions (Schedule B)

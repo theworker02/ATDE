@@ -19,10 +19,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/theworker02/blind-botnet/v2/internal/config"
-	"github.com/theworker02/blind-botnet/v2/internal/immunize"
-	"github.com/theworker02/blind-botnet/v2/internal/models"
-	"github.com/theworker02/blind-botnet/v2/internal/natsbus"
+	"github.com/theworker02/ATDE/v2/internal/config"
+	"github.com/theworker02/ATDE/v2/internal/immunize"
+	"github.com/theworker02/ATDE/v2/internal/models"
+	"github.com/theworker02/ATDE/v2/internal/natsbus"
 )
 
 // Engine is the deceptive L7 surface: realistic vuln indicators, zero real exploitability.

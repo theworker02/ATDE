@@ -4,7 +4,7 @@
 **Copyright holder (claimed):** `theworker02` (GitHub)  
 **Primary license of this repository:** Apache License 2.0  
 **Product name:** ATDE (Autonomous Threat Disruption Engine)  
-**Module path:** `github.com/theworker02/blind-botnet/v2`
+**Module path:** `github.com/theworker02/ATDE/v2`
 
 ---
 
@@ -56,7 +56,7 @@ All direct Go dependencies are **permissive** (Apache-2.0 / BSD / MIT family). *
 
 | Asset | Holder | Transfers? |
 |-------|--------|------------|
-| GitHub repo `theworker02/blind-botnet` | @theworker02 | Via GitHub ownership transfer |
+| GitHub repo `theworker02/ATDE` | @theworker02 | Via GitHub ownership transfer |
 | thanks.dev `u/gh/theworker02` | @theworker02 | Separate; see FUNDING.yml |
 | Cloud accounts (CF/AWS) | Operator | **Not** transferred by this repo |
 | Trademark registrations | None filed | Optional post-close filing |

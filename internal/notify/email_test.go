@@ -12,7 +12,7 @@ import (
 
 	"github.com/ProtonMail/gopenpgp/v3/crypto"
 
-	"github.com/theworker02/blind-botnet/v2/internal/catch"
+	"github.com/theworker02/ATDE/v2/internal/catch"
 )
 
 func TestEncryptPGPRoundTrip(t *testing.T) {

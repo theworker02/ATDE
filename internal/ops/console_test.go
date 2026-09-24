@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/theworker02/blind-botnet/v2/internal/catch"
+	"github.com/theworker02/ATDE/v2/internal/catch"
 )
 
 func TestCatchAPIAndConsole(t *testing.T) {

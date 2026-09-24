@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/theworker02/blind-botnet/v2/internal/catch"
+	"github.com/theworker02/ATDE/v2/internal/catch"
 )
 
 // Webhook posts catch records to an operator-owned URL (Slack/Discord/generic JSON).

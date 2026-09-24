@@ -3,7 +3,7 @@ package indicators_test
 import (
 	"testing"
 
-	"github.com/theworker02/blind-botnet/v2/internal/extract/indicators"
+	"github.com/theworker02/ATDE/v2/internal/extract/indicators"
 )
 
 func TestExtractTelegramAndWallet(t *testing.T) {

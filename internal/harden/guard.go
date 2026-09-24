@@ -9,9 +9,9 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/theworker02/blind-botnet/v2/internal/config"
-	"github.com/theworker02/blind-botnet/v2/internal/models"
-	"github.com/theworker02/blind-botnet/v2/internal/natsbus"
+	"github.com/theworker02/ATDE/v2/internal/config"
+	"github.com/theworker02/ATDE/v2/internal/models"
+	"github.com/theworker02/ATDE/v2/internal/natsbus"
 )
 
 // AlertFunc publishes a compromise signal before wipe (optional).

@@ -49,7 +49,7 @@ Independent reconstruction estimated at **≈ 48–75 person-weeks** (~**$190k�
 | Asset | Location | Notes |
 |-------|----------|--------|
 | **Schedule A (full list)** | [`docs/data-room/SCHEDULE-A.md`](docs/data-room/SCHEDULE-A.md) | Named assets in the close |
-| Source code | Entire repository | Module `github.com/theworker02/blind-botnet/v2` |
+| Source code | Entire repository | Module `github.com/theworker02/ATDE/v2` |
 | Copyright | `AUTHORS`, `COPYRIGHT`, `NOTICE` | Sign [`TRANSFER.md`](docs/data-room/TRANSFER.md) |
 | Event schemas + Catch OpenAPI | `schemas/` | Bus + `openapi-catch-v1.json` |
 | Catch-node packaging | `deployments/catch-node.yml`, `Dockerfile` | Seven public baits |

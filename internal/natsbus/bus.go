@@ -9,7 +9,7 @@ import (
 
 	"github.com/nats-io/nats.go"
 
-	"github.com/theworker02/blind-botnet/v2/internal/models"
+	"github.com/theworker02/ATDE/v2/internal/models"
 )
 
 // Bus wraps NATS JetStream for the THREAT_PIPELINE stream.

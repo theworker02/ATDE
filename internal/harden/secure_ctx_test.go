@@ -4,7 +4,7 @@ import (
 	"log/slog"
 	"testing"
 
-	"github.com/theworker02/blind-botnet/v2/internal/harden"
+	"github.com/theworker02/ATDE/v2/internal/harden"
 )
 
 func TestZeroizeMemory(t *testing.T) {

@@ -5,9 +5,9 @@ type: software
 authors:
   - family-names: "theworker02"
     website: "https://github.com/theworker02"
-repository-code: "https://github.com/theworker02/blind-botnet"
-url: "https://github.com/theworker02/blind-botnet"
-abstract: "Defensive deception and local-first containment platform for owned infrastructure — seven-surface catch appliance, threat pipeline, STIX/abuse export, and acquisition-ready IP (ATDE 1.3)."
+repository-code: "https://github.com/theworker02/ATDE"
+url: "https://github.com/theworker02/ATDE"
+abstract: "Defensive deception and local-first containment platform for owned infrastructure — multi-surface catch appliance, threat policy, campaign correlator, SIEM/STIX/MISP export, fleet ban sync, and acquisition-ready IP (ATDE 2.0)."
 keywords:
   - cybersecurity
   - honeypot
@@ -16,5 +16,5 @@ keywords:
   - active-defense
   - STIX
 license: Apache-2.0
-version: 2.0.1
+version: 2.0.2
 date-released: "2026-09-24"

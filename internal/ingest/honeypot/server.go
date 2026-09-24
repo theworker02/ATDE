@@ -12,16 +12,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/theworker02/blind-botnet/v2/internal/catch"
-	"github.com/theworker02/blind-botnet/v2/internal/config"
-	"github.com/theworker02/blind-botnet/v2/internal/disrupt/edge"
-	"github.com/theworker02/blind-botnet/v2/internal/disrupt/tarpit"
-	"github.com/theworker02/blind-botnet/v2/internal/fingerprint"
-	"github.com/theworker02/blind-botnet/v2/internal/fleet"
-	"github.com/theworker02/blind-botnet/v2/internal/models"
-	"github.com/theworker02/blind-botnet/v2/internal/natsbus"
-	"github.com/theworker02/blind-botnet/v2/internal/ops"
-	"github.com/theworker02/blind-botnet/v2/internal/policy"
+	"github.com/theworker02/ATDE/v2/internal/catch"
+	"github.com/theworker02/ATDE/v2/internal/config"
+	"github.com/theworker02/ATDE/v2/internal/disrupt/edge"
+	"github.com/theworker02/ATDE/v2/internal/disrupt/tarpit"
+	"github.com/theworker02/ATDE/v2/internal/fingerprint"
+	"github.com/theworker02/ATDE/v2/internal/fleet"
+	"github.com/theworker02/ATDE/v2/internal/models"
+	"github.com/theworker02/ATDE/v2/internal/natsbus"
+	"github.com/theworker02/ATDE/v2/internal/ops"
+	"github.com/theworker02/ATDE/v2/internal/policy"
 )
 
 // Server publishes trap hits and serves the substantial Atlas decoy portal.

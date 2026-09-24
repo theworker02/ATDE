@@ -6,10 +6,10 @@ import (
 	"log/slog"
 	"testing"
 
-	"github.com/theworker02/blind-botnet/v2/internal/catch"
-	"github.com/theworker02/blind-botnet/v2/internal/config"
-	"github.com/theworker02/blind-botnet/v2/internal/disrupt/edge"
-	"github.com/theworker02/blind-botnet/v2/internal/models"
+	"github.com/theworker02/ATDE/v2/internal/catch"
+	"github.com/theworker02/ATDE/v2/internal/config"
+	"github.com/theworker02/ATDE/v2/internal/disrupt/edge"
+	"github.com/theworker02/ATDE/v2/internal/models"
 )
 
 // TestLocalFirstPipeline proves dossier + containment semantics used in diligence demos.

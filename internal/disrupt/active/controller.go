@@ -9,12 +9,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/theworker02/blind-botnet/v2/internal/catch"
-	"github.com/theworker02/blind-botnet/v2/internal/config"
-	"github.com/theworker02/blind-botnet/v2/internal/disrupt/edge"
-	"github.com/theworker02/blind-botnet/v2/internal/disrupt/poison"
-	"github.com/theworker02/blind-botnet/v2/internal/models"
-	"github.com/theworker02/blind-botnet/v2/internal/natsbus"
+	"github.com/theworker02/ATDE/v2/internal/catch"
+	"github.com/theworker02/ATDE/v2/internal/config"
+	"github.com/theworker02/ATDE/v2/internal/disrupt/edge"
+	"github.com/theworker02/ATDE/v2/internal/disrupt/poison"
+	"github.com/theworker02/ATDE/v2/internal/models"
+	"github.com/theworker02/ATDE/v2/internal/natsbus"
 )
 
 // Controller is the Phase 4 disruption dispatcher.
