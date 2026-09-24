@@ -14,9 +14,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/theworker02/blind-botnet/internal/config"
-	"github.com/theworker02/blind-botnet/internal/immunize"
-	"github.com/theworker02/blind-botnet/internal/models"
+	"github.com/theworker02/blind-botnet/v2/internal/config"
+	"github.com/theworker02/blind-botnet/v2/internal/immunize"
+	"github.com/theworker02/blind-botnet/v2/internal/models"
 )
 
 // Result describes what EnforceContainment actually did.

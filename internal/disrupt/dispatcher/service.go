@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/theworker02/blind-botnet/internal/models"
-	"github.com/theworker02/blind-botnet/internal/natsbus"
+	"github.com/theworker02/blind-botnet/v2/internal/models"
+	"github.com/theworker02/blind-botnet/v2/internal/natsbus"
 )
 
 // Service consumes threat.v1.action.takedown and dispatches abuse packages.

@@ -14,7 +14,7 @@ import (
 
 	"github.com/ProtonMail/gopenpgp/v3/crypto"
 
-	"github.com/theworker02/blind-botnet/internal/catch"
+	"github.com/theworker02/blind-botnet/v2/internal/catch"
 )
 
 // EmailConfig controls SMTP alerts to the catch-node owner.

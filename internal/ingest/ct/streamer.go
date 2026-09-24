@@ -13,10 +13,10 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/theworker02/blind-botnet/internal/config"
-	"github.com/theworker02/blind-botnet/internal/ingest/rules"
-	"github.com/theworker02/blind-botnet/internal/models"
-	"github.com/theworker02/blind-botnet/internal/natsbus"
+	"github.com/theworker02/blind-botnet/v2/internal/config"
+	"github.com/theworker02/blind-botnet/v2/internal/ingest/rules"
+	"github.com/theworker02/blind-botnet/v2/internal/models"
+	"github.com/theworker02/blind-botnet/v2/internal/natsbus"
 )
 
 // Streamer connects to CertStream, applies RuleEngine heuristics, publishes to NATS.

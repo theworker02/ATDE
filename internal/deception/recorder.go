@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/theworker02/blind-botnet/internal/catch"
-	"github.com/theworker02/blind-botnet/internal/immunize"
-	"github.com/theworker02/blind-botnet/internal/models"
-	"github.com/theworker02/blind-botnet/internal/natsbus"
+	"github.com/theworker02/blind-botnet/v2/internal/catch"
+	"github.com/theworker02/blind-botnet/v2/internal/immunize"
+	"github.com/theworker02/blind-botnet/v2/internal/models"
+	"github.com/theworker02/blind-botnet/v2/internal/natsbus"
 )
 
 // ThreatReporter implements Rule 2 (Recorder) + Rule 3 immunization dispatch.

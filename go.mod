@@ -1,4 +1,4 @@
-module github.com/theworker02/blind-botnet
+module github.com/theworker02/blind-botnet/v2
 
 go 1.26.3
 

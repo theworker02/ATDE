@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/theworker02/blind-botnet/internal/catch"
-	"github.com/theworker02/blind-botnet/internal/fingerprint"
-	"github.com/theworker02/blind-botnet/internal/models"
+	"github.com/theworker02/blind-botnet/v2/internal/catch"
+	"github.com/theworker02/blind-botnet/v2/internal/fingerprint"
+	"github.com/theworker02/blind-botnet/v2/internal/models"
 )
 
 func (s *Server) serveExtraBaits(done <-chan struct{}) {

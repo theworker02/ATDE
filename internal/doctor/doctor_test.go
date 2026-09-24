@@ -3,7 +3,7 @@ package doctor
 import (
 	"testing"
 
-	"github.com/theworker02/blind-botnet/internal/config"
+	"github.com/theworker02/blind-botnet/v2/internal/config"
 )
 
 func TestRunBasic(t *testing.T) {

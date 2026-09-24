@@ -4,7 +4,7 @@
 **Copyright holder (claimed):** `theworker02` (GitHub)  
 **Primary license of this repository:** Apache License 2.0  
 **Product name:** ATDE (Autonomous Threat Disruption Engine)  
-**Module path:** `github.com/theworker02/blind-botnet`
+**Module path:** `github.com/theworker02/blind-botnet/v2`
 
 ---
 

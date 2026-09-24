@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/theworker02/blind-botnet/internal/config"
-	"github.com/theworker02/blind-botnet/internal/ingest/honeypot"
-	"github.com/theworker02/blind-botnet/internal/ops"
+	"github.com/theworker02/blind-botnet/v2/internal/config"
+	"github.com/theworker02/blind-botnet/v2/internal/ingest/honeypot"
+	"github.com/theworker02/blind-botnet/v2/internal/ops"
 )
 
 func testServer(t *testing.T) *honeypot.Server {
