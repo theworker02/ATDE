@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="docs/logo.svg" alt="ATDE official logo" width="128" height="128">
+</p>
+
+<p align="center">
   <img src="docs/assets/logo.svg" alt="ATDE logo" width="128" height="128" />
 </p>
 
@@ -379,3 +383,7 @@ Copyright 2026 theworker02. Licensed under the [Apache License 2.0](LICENSE).
 | pages enabled | Site intended at `https://theworker02.github.io/ATDE/` |
 
 Detailed narrative for the stable line lives in [CHANGELOG.md](./CHANGELOG.md) and the [v1.0.0 GitHub Release](https://github.com/theworker02/ATDE/releases/tag/v1.0.0).
+
+## Acquisition
+
+See [ACQUISITION.md](./ACQUISITION.md) for the diligence-oriented product brief, asset map, and commercial posture notes.
