@@ -10,7 +10,7 @@ require (
 	github.com/gorilla/websocket v1.5.3
 	github.com/nats-io/nats.go v1.54.0
 	golang.org/x/sync v0.23.0
-	golang.org/x/sys v0.48.0
+	golang.org/x/sys v0.49.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
